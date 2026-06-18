@@ -10,6 +10,8 @@ public class Student implements Serializable {
     private String department;
     private double gpa;
 
+    
+
     public Student() {}
 
     public Student(String id, String name, String department, double gpa) {
