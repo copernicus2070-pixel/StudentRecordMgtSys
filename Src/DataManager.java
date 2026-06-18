@@ -5,6 +5,7 @@ import java.nio.file.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+
 public class DataManager {
     private final File dataDir;
     private final File textFile;
