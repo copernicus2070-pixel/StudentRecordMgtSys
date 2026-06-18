@@ -37,7 +37,6 @@ public class Student implements Serializable {
         return id + "," + name + "," + department + "," + gpa;
     }
 
-
     public static Student fromCSV(String csv) {
         String[] parts = csv.split(",", -1);
         if (parts.length < 4) return null;
