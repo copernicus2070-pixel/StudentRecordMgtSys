@@ -11,7 +11,6 @@ public class Student implements Serializable {
     private double gpa;
 
 
-
     public Student() {}
 
     public Student(String id, String name, String department, double gpa) {
