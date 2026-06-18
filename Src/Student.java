@@ -10,7 +10,7 @@ public class Student implements Serializable {
     private String department;
     private double gpa;
 
-    
+
 
     public Student() {}
 
@@ -21,6 +21,8 @@ public class Student implements Serializable {
         this.gpa = gpa;
     }
 
+
+    
     public String getId() { return id; }
     public String getName() { return name; }
     public String getDepartment() { return department; }
