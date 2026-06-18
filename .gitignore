@@ -1,0 +1,20 @@
+# Ignore compiled class files
+*.class
+
+# Ignore build/output folders
+/out/
+/bin/
+
+# Ignore backup files
+/Data/backup/
+
+# Ignore serialized data files (optional)
+*.ser
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore OS‑specific files
+.DS_Store
+Thumbs.db
